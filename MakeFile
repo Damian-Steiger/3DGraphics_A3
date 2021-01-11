@@ -1,0 +1,6 @@
+# build an executable named raytracer from raytracer.c
+  all: a3.c 
+ 	  gcc -lm -g -Wall -o raytracer a3.c
+
+  clean: 
+	  $(RM) raytracer
